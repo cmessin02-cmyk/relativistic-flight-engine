@@ -50,24 +50,3 @@ gcc main.c -o flight_engine -lm
 ./flight_engine
 
 ---
-
-## 📊 Benchmark Simulations (Alpha Centauri — 4.37 Light-Years)
-
-*Theoretical flight parameters for a **1,000 Metric Ton** starship traveling to Alpha Centauri at varying fractions of light speed ($c$):*
-
-| Speed ($\beta$) | Lorentz Factor ($\gamma$) | Earth Frame Time | Crew Proper Time | Required Kinetic Energy ($E_k$) |
-| :---: | :---: | :---: | :---: | :---: |
-| **0.50 c** | $1.1547$ | 8.74 Years | 7.57 Years | $1.391 \times 10^{22} \text{ Joules}$ |
-| **0.90 c** | $2.2942$ | 4.86 Years | 2.12 Years | $1.163 \times 10^{23} \text{ Joules}$ |
-| **0.99 c** | $7.0888$ | 4.41 Years | 0.62 Years | $5.472 \times 10^{23} \text{ Joules}$ |
-| **0.9999 c** | $70.7124$ | 4.37 Years | 0.06 Years (~22 Days!) | $6.265 \times 10^{24} \text{ Joules}$ |
-
----
-
-## 🔬 Physics & Theoretical Context
-
-In classical Newtonian mechanics, kinetic energy grows quadratically ($E = \frac{1}{2}mv^2$) and time flows uniformly everywhere in the universe. Special Relativity demonstrates that space and time are unified into a 4-dimensional spacetime continuum.
-
-As a starship's velocity approaches $c$:
-* **Massive Energy Wall:** The energy required to accelerate increases non-linearly. Reaching $c$ would demand infinite energy, proving that no object with rest mass can achieve or exceed light speed.
-* **Proper Time Asymmetry:** While travelers perceive their clock running normally, observers on Earth measure the crew's clock running dramatically slower due to time dilation.
